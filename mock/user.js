@@ -12,7 +12,8 @@ const users = {
   'admin-token': {
     roles: ['admin'],
     introduction: 'I am a super administrator',
-    avatar: 'http://www2.flightclub.cn/news/uploads/allimg/180324/7-1P324125204.gif',
+    // avatar: 'http://www2.flightclub.cn/news/uploads/allimg/180324/7-1P324125204.gif',
+    avatar: 'https://avatars3.githubusercontent.com/u/22052946?s=460&u=d7d1c44e35aca1ad89d473960d72fefd997c509e&v=4',
     name: 'Super Admin'
   },
   'editor-token': {
