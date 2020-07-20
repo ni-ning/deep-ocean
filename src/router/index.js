@@ -78,15 +78,15 @@ export const constantRoutes = [
   {
     path: '/study',
     component: Layout,
-    redirect: '/study/table',
+    redirect: '/study/examine',
     name: 'Study',
-    meta: { title: '教务管理', icon: 'el-icon-s-help' },
+    meta: { title: '教务管理', icon: 'el-icon-reading' },
     children: [
       {
-        path: 'table',
-        name: 'Table',
-        component: () => import('@/views/table/index'),
-        meta: { title: 'Table', icon: 'table' }
+        path: 'examine',
+        name: 'Examine',
+        component: () => import('@/views/examine/index'),
+        meta: { title: '模块考核', icon: 'el-icon-s-check' }
       },
       {
         path: 'tree',
